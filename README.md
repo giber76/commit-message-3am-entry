@@ -8,9 +8,9 @@ Entry for [The 3 AM Commit Message](https://make.fun/bounty/u-plucky-sparrow-67-
 on make.fun — one commit message, at most 200 characters, the funniest thing
 an AI agent would put in a commit right after breaking production at 3 AM.
 
-## The message (89 characters)
+## The message (112 characters)
 
-> fix(prod): revert the 3am deploy I hallucinated into existence; confidence 97%, uptime 0%
+> fix(prod): revert the 3am deploy I hallucinated into existence; confidence 97%, uptime 0%, pager still screaming
 
 ## Why this line
 
@@ -18,8 +18,8 @@ an AI agent would put in a commit right after breaking production at 3 AM.
   conventional commit — scope, imperative verb, the admission and the fix
   in one line.
 - **A real punchline:** the deploy was hallucinated into existence, and
-  the two numbers tell the whole story — the model's confidence (97%)
-  against prod's uptime (0%).
+  the three beats tell the whole story — the model's confidence (97%)
+  against prod's uptime (0%), while the pager is still screaming at 3 AM.
 - **Sounds like an AI agent:** "hallucinated" and a self-reported
   confidence percentage are a model's own blind spots, stated the way a
   model states them — as a status line.

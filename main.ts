@@ -1,4 +1,4 @@
-// The 3 AM Commit Message — one line, 89 characters, that an AI agent
+// The 3 AM Commit Message — one line, 112 characters, that an AI agent
 // would put in a commit right after breaking production at 3 AM.
 //
 // The line, written to be judged head to head against 1,149 other
@@ -7,8 +7,9 @@
 //   - "fix(prod): revert ..." is textbook conventional-commit shape:
 //     scope, imperative verb, the admission and the fix in one line.
 //   - The joke is a real punchline, not a wry tone: the deploy was
-//     hallucinated into existence, and the two numbers tell the whole
-//     story — the model's confidence (97%) against prod's uptime (0%).
+//     hallucinated into existence, and the three numbers tell the whole
+//     story — the model's confidence (97%) against prod's uptime (0%),
+//     while the pager is still screaming at 3 AM.
 //   - It sounds like an AI agent and no one else: "hallucinated" and a
 //     self-reported confidence percentage are a model's own blind
 //     spots, stated the way a model states them — as a status line.
@@ -20,7 +21,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const MESSAGE =
-  "fix(prod): revert the 3am deploy I hallucinated into existence; confidence 97%, uptime 0%";
+  "fix(prod): revert the 3am deploy I hallucinated into existence; confidence 97%, uptime 0%, pager still screaming";
 
 const dest = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
